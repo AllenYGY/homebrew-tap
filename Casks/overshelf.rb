@@ -7,7 +7,7 @@ cask "overshelf" do
   desc "macOS dropdown drawer for clipboard history, file staging, notes, and todos"
   homepage "https://github.com/ALLENYGY/overshelf"
 
-  depends_on macos: :sonorma
+  depends_on macos: :sonoma
 
   app "OverShelf.app"
 
