@@ -1,6 +1,6 @@
 cask "overshelf" do
-  version "1.9.1"
-  sha256 "a6e744f0aee0870284bc2a13802a1bb3002db2e546d3d371e6760feeccd48e56"
+  version "1.10.0"
+  sha256 "22cf2e799dc57b9a2a92c65f59caf9cb3cfd4f16f745c80c63683e2bd6a5011b"
 
   url "https://github.com/ALLENYGY/overshelf/releases/download/v#{version}/OverShelf-#{version}.zip"
   name "OverShelf"
