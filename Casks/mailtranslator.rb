@@ -5,7 +5,9 @@ cask "mailtranslator" do
   url "https://github.com/AllenYGY/ExtentionforMail/releases/download/v#{version}/MailTranslator-#{version}.zip"
   name "MailTranslator"
   desc "Translate messages in macOS Mail with local, cloud, and LLM providers"
-  homepage "https://github.com/AllenYGY/ExtentionforMail"
+  homepage "https://github.com/AllenYGY/MailTranslator"
+
+  disable! date: "2026-10-26", because: :no_longer_available
 
   depends_on macos: :sonoma
 
